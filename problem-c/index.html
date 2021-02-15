@@ -2,51 +2,114 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
   <title>Playing Cards</title>
 
   <!-- link in Bootstrap here -->
+  <link rel="stylesheet" 
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" 
+      integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" 
+      crossorigin="anonymous">
 </head>
 
 <body>
-  <header>
-    <h1>Playing Cards</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+  <header class="jumbotron-fluid jumbotron bg-dark text-white">
+    <div class="container">
+      <h1 class="display playing cards">Playing Cards </h1>
+    <p class="lead"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+    </div>
   </header>
 
   <main>
 
+    <div class="container">
+    <div class="row">
+
     <!-- Card 1 -->
-    <div>
-      <img src="img/card-club-icon.png" alt="the club suit symbol">
-      <h2>Clubs</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, fuga?</p>
-      <a href="#">Play</a>
+    <div class="d-flex p-2 col-xl-3 col-md-6">(flexbox container)  <!-- bootstrap  /  flexbox utilities ref https://getbootstrap.com/docs/4.0/utilities/flex/ -->
+    <div class="card mb-4">
+      <div class="card-body">
+
+        <div class="row">
+          <div class="col-xl-12, col-sm-auto">
+        <img src="img/card-club-icon.png" class="pb-3" alt="the club suit symbol"></div>
+          
+        <div class="col-sm">
+          <h2 class="card-title">Clubs</h2>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, fuga?</p>
+          <a class="btn btn-dark" type="button" href="#top">Play</a>
+          </div>
+        </div>
+      </div>
     </div>
+    </div>
+
 
     <!-- Card 2 -->
-    <div>
-      <img src="img/card-diamond-icon.png" alt="the diamond suit symbol">
-      <h2>Diamonds</h2>
-      <p>Quam, officiis ut adipisci pariatur veniam labore ipsum optio tenetur!</p>
-      <a href="#">Play</a>
+    <div class="d-flex p-2 col-xl-3 col-md-6">(flexbox container)
+      <div class="card mb-4">
+        <div class="card-body">
+
+        <div class="row">
+          <div class="col-xl-12, col-sm-auto">
+        <img src="img/card-diamond-icon.png" alt="the diamond suit symbol" class="pb-3">
+      </div>
+        <div class="col-sm">
+          <h2 class="card-title">Diamonds</h2>
+          <p class="card-text">Quam, officiis ut adipisci pariatur veniam labore ipsum optio tenetur!</p>
+          <a type="button" class="btn btn-dark" href="#top">Play</a> <!--  which is better ask during lab- href=#top, href=#, or just not include href at all bc it passed the tests without it?? I dont think i should link it again i can just do #top right? Ask molly in lab.https://www.w3schools.com/tags/att_a_href.asp-->
+        </div>
+      </div>
     </div>
+  </div>
+</div>
 
     <!-- Card 3 -->
-    <div>
-      <img src="img/card-heart-icon.png" alt="the heart suit symbol">
-      <h2>Hearts</h2>
-      <p>Reiciendis doloremque voluptas veniam repellendus quisquam deleniti tenetur quia a.</p>
-      <a href="#">Play</a>
+    <div class="d-flex p-2 col-xl-3 col-md-6">(flexbox container)
+      <div class="card mb-4">
+        <div class="card-body">
+
+          <div class="row">
+          <div class="col-xl-12, col-sm-auto">
+        <img src="img/card-heart-icon.png" class="pb-3" alt="the heart suit symbol">
+          </div>
+          <div class="col-sm">
+          <h2 class="card-title">Hearts</h2>
+          <p class="card-text">Reiciendis doloremque voluptas veniam repellendus quisquam deleniti tenetur quia a.</p>
+          <a class="btn btn-dark" type="button" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">Play</a>
+        </div>
+      </div>
     </div>
+    </div>
+  </div>        <!-- looks weird when i open index.html on chrome,  the writing is squished on the right side of the card and is long and vertical...i wonder why oops lol --->
 
     <!-- Card 4 -->
-    <div>
-      <img src="img/card-spade-icon.png" alt="the heart suit symbol">
-      <h2>Spades</h2>
-      <p>Maiores voluptate rem odit dolor temporibus asperiores maxime velit sapiente.</p>
-      <a href="#">Play</a>
-    </div>
+    <div class="d-flex p-2 col-xl-3 col-md-6">(flexbox container)
+    <div class="card mb-4">
+      <div class="card-body">
 
-  </main>
+        <div class="row">
+          <div class="col-xl-12, col-sm-auto">
+        <img src="img/card-spade-icon.png" alt="the heart suit symbol" class="pb-3">
+          </div>
+          <div class="col-sm">
+          <h2 class="card-title">Spades</h2>
+          <p class="card-text">Maiores voluptate rem odit dolor temporibus asperiores maxime velit sapiente.</p>
+          <a type="button" class="btn btn-dark" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" >Play</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+ </div>
+
+ </main>
+
 </body>
 </html>
+
+
+
