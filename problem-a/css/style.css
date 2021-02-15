@@ -37,6 +37,9 @@ main{
   flex-grow: 0;
 }
 
+.cards, .img-cards{
+  flex: 0 0 250px;
+}
 .img-cards{
   display: flex;
   flex-wrap: wrap;
@@ -53,9 +56,6 @@ main{
   box-shadow: 01px3pxrgba(0,0,0,0.16),01px3pxrgba(0,0,0,0.23);
 }
 
-.cards, .img-cards{
-  flex: 0 0 250px;
-}
 .cards p{
   padding: .5rem 1rem;
 }

@@ -1,15 +1,15 @@
-body{
+nav a, body{
+    color: white;
     margin: .5rem;
+    margin-right: .5em;
+}
+
+body{
     background-color: #93b8d7;
 }
 
 nav a{
     font-size: 2.5rem;
-    margin-right: .5em;
-}
-
-nav a, body{
-    color: white;
 }
 
 main{
