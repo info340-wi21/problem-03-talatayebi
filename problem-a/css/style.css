@@ -42,17 +42,20 @@ main{
   flex-wrap: wrap;
   justify-content: center;
   border-radius: 10px 10px 0 0;
-  flex: 250px;
+  /* flex: 250px; */
 }
 
 .cards{
   border-radius: 10px;
-  flex: 0 0 250px;
+  /* flex: 0 0 250px; */
   background-color: white;
   margin: .5rem;
-  box-shadow: 01px 3px rgba(0,0,0,0.16),01px 3px rgba(0,0,0,0.23);
+  box-shadow: 01px3pxrgba(0,0,0,0.16),01px3pxrgba(0,0,0,0.23);
 }
 
+.cards, .img-cards{
+  flex: 0 0 250px;
+}
 .cards p{
   padding: .5rem 1rem;
 }
